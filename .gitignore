@@ -78,3 +78,110 @@ ehthumbs_vista.db
 
 # Dump file
 *.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+### Security ###
+# Environment files with sensitive data
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# Secrets and credentials
+secrets/
+credentials/
+**/application-secrets.properties
+**/application-secrets.yml
+
+### Logs ###
+logs/
+*.log
+*.log.*
+spring.log
+
+### IDE ###
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# VS Code
+.vscode/
+.history/
+
+### Build and Package ###
+target/
+build/
+dist/
+*.war
+*.ear
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+### Docker ###
+docker-compose.override.yml
+.dockerignore
+
+### Database ###
+*.db
+*.sqlite
+*.sqlite3
+
+### OS ###
+# Linux
+*~
+.directory
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Testing ###
+.coverage
+coverage/
+htmlcov/
+test-results/
+*.cover
+
+### CI/CD ###
+.circleci/
+.github/workflows/local/
+*.tfstate
+*.tfstate.*
+
+### Temporary Files ###
+*.swp
+*.swo
+*.tmp
+*.temp
+*~
+.#*
+
+### Application Specific ###
+application-local.properties
+application-local.yml
